@@ -38,3 +38,9 @@ function greeting(parameterVariable) {
     
 }
 
+
+function main() {
+    const parameterVariable = readLine();
+    
+    greeting(parameterVariable);
+}
